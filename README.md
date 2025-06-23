@@ -115,27 +115,6 @@ The frontend expects the following API endpoints:
 ]
 \`\`\`
 
-## Project Structure
-
-\`\`\`
-├── app/                    # Next.js App Router pages
-│   ├── dashboard/         # Dashboard page
-│   ├── jobs/             # Jobs management page
-│   ├── login/            # Login page
-│   ├── register/         # Register page
-│   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Home page
-├── components/           # Reusable components
-│   ├── Navbar.tsx       # Navigation component
-│   └── PrivateRoute.tsx # Route protection
-├── contexts/            # React contexts
-│   └── AuthContext.tsx  # Authentication context
-├── utils/              # Utility functions
-│   ├── api.ts          # API functions
-│   └── auth.ts         # Auth utilities
-└── .env.local          # Environment variables
-\`\`\`
-
 ## Authentication Flow
 
 1. User registers/logs in through the auth forms
